@@ -65,5 +65,5 @@ app.get('/productos', listaProductos)
 app.get('/productoRandom', productoRandom)
 
 app.listen(puerto, () => {
-	console.log('servidor escuchando')
+	console.log(`Escuchando en puerto ${puerto}`)
 })
